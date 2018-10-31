@@ -1,0 +1,24 @@
+# platform :ios, '9.0'
+
+target 'YZBaseProject' do
+  # use_frameworks!
+
+pod 'AFNetworking'
+pod 'MJExtension'
+pod 'MBProgressHUD'
+pod 'Masonry'
+pod 'MJRefresh'
+pod 'IQKeyboardManager'
+pod 'LCActionSheet'
+pod 'ReactiveObjC'
+pod 'SDWebImage'
+pod 'HMSegmentedControl'
+pod 'zhPopupController'
+#pod 'KSPhotoBrowser'
+
+pod 'YYCache'
+pod 'YYImage'
+pod 'YYWebImage'
+
+
+end

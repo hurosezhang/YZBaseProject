@@ -1,0 +1,819 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65417EBA20D4DEBD00032208 /* YZLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65417EB920D4DEBD00032208 /* YZLoginViewController.m */; };
+		65417EC320D4FC1300032208 /* YZLoginTextFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65417EC220D4FC1300032208 /* YZLoginTextFieldView.m */; };
+		65417EC520D4FC1D00032208 /* YZLoginTextFieldView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65417EC420D4FC1D00032208 /* YZLoginTextFieldView.xib */; };
+		65417EC720D4FFB100032208 /* login.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65417EC620D4FFB100032208 /* login.xcassets */; };
+		65417EE920D56C9600032208 /* YZBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65417EDC20D56C9600032208 /* YZBaseViewController.m */; };
+		65417EEA20D56C9600032208 /* YZMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65417EDD20D56C9600032208 /* YZMainViewController.m */; };
+		65417EEB20D56C9600032208 /* YZNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65417EE120D56C9600032208 /* YZNavigationViewController.m */; };
+		65417EEC20D56C9600032208 /* YZAccountModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 65417EE320D56C9600032208 /* YZAccountModel.m */; };
+		65417EED20D56C9600032208 /* YZAccountTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 65417EE820D56C9600032208 /* YZAccountTool.m */; };
+		65417EF020D56CEC00032208 /* MainTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 65417EEF20D56CEC00032208 /* MainTool.m */; };
+		65417F2120D663BB00032208 /* MBProgressHUD+JDragon.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 65417F1F20D663BB00032208 /* MBProgressHUD+JDragon.bundle */; };
+		65417F2220D663BB00032208 /* MBProgressHUD+JDragon.m in Sources */ = {isa = PBXBuildFile; fileRef = 65417F2020D663BB00032208 /* MBProgressHUD+JDragon.m */; };
+		65417F3C20D666B100032208 /* YZhttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 65417F3820D666B000032208 /* YZhttpRequest.m */; };
+		65417F3D20D666B100032208 /* YZBaseRequestTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 65417F3920D666B000032208 /* YZBaseRequestTool.m */; };
+		65417F4020D666F200032208 /* YZBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 65417F3F20D666F200032208 /* YZBaseModel.m */; };
+		65417F4420D7643700032208 /* YZSaveReadTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 65417F4320D7643700032208 /* YZSaveReadTool.m */; };
+		65417F4720D7669800032208 /* YZPersonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 65417F4620D7669800032208 /* YZPersonModel.m */; };
+		65742C3120CFA65A00EF9506 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65742C3020CFA65A00EF9506 /* Assets.xcassets */; };
+		65742C3420CFA65A00EF9506 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65742C3220CFA65A00EF9506 /* LaunchScreen.storyboard */; };
+		65742C6B20D21BC600EF9506 /* AppDelegate+YZRootController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65742C6220D21BC600EF9506 /* AppDelegate+YZRootController.m */; };
+		65742C6C20D21BC600EF9506 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65742C6420D21BC600EF9506 /* AppDelegate.m */; };
+		65742C6E20D21BC600EF9506 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65742C6720D21BC600EF9506 /* main.m */; };
+		65E3007720DA4ABE00828A50 /* YZDeviceAuthorityTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E3007620DA4ABE00828A50 /* YZDeviceAuthorityTool.m */; };
+		65E3007F20DA554300828A50 /* UIView+YLXTransitionAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E3007B20DA554200828A50 /* UIView+YLXTransitionAnimation.m */; };
+		65E3008020DA554300828A50 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E3007C20DA554200828A50 /* UIView+Frame.m */; };
+		65E3008420DA56FB00828A50 /* UIAlertController+MHColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E3008220DA56FA00828A50 /* UIAlertController+MHColor.m */; };
+		65E3008720DA59DD00828A50 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E3008620DA59DD00828A50 /* UIView+Extension.m */; };
+		65E3008A20DA94FC00828A50 /* UIViewController+YZAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E3008920DA94FC00828A50 /* UIViewController+YZAlertController.m */; };
+		65F72E3420E0F01B00B15F79 /* UIScrollView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F72E3320E0F01B00B15F79 /* UIScrollView+Extension.m */; };
+		65F72E4020E2252000B15F79 /* UITableView+noDateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F72E3C20E2252000B15F79 /* UITableView+noDateView.m */; };
+		65F72E4120E2252000B15F79 /* YZNodataView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F72E3E20E2252000B15F79 /* YZNodataView.m */; };
+		8E89AC17378A19138651B200 /* libPods-YZBaseProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D74581A37352F34B946AAE8B /* libPods-YZBaseProject.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		65417EB820D4DEBD00032208 /* YZLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZLoginViewController.h; sourceTree = "<group>"; };
+		65417EB920D4DEBD00032208 /* YZLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZLoginViewController.m; sourceTree = "<group>"; };
+		65417EC120D4FC1300032208 /* YZLoginTextFieldView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZLoginTextFieldView.h; sourceTree = "<group>"; };
+		65417EC220D4FC1300032208 /* YZLoginTextFieldView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZLoginTextFieldView.m; sourceTree = "<group>"; };
+		65417EC420D4FC1D00032208 /* YZLoginTextFieldView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YZLoginTextFieldView.xib; sourceTree = "<group>"; };
+		65417EC620D4FFB100032208 /* login.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = login.xcassets; sourceTree = "<group>"; };
+		65417EDC20D56C9600032208 /* YZBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZBaseViewController.m; sourceTree = "<group>"; };
+		65417EDD20D56C9600032208 /* YZMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZMainViewController.m; sourceTree = "<group>"; };
+		65417EDE20D56C9600032208 /* YZNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZNavigationViewController.h; sourceTree = "<group>"; };
+		65417EDF20D56C9600032208 /* YZBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZBaseViewController.h; sourceTree = "<group>"; };
+		65417EE020D56C9600032208 /* YZMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZMainViewController.h; sourceTree = "<group>"; };
+		65417EE120D56C9600032208 /* YZNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZNavigationViewController.m; sourceTree = "<group>"; };
+		65417EE320D56C9600032208 /* YZAccountModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZAccountModel.m; sourceTree = "<group>"; };
+		65417EE420D56C9600032208 /* YZAccountModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZAccountModel.h; sourceTree = "<group>"; };
+		65417EE720D56C9600032208 /* YZAccountTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZAccountTool.h; sourceTree = "<group>"; };
+		65417EE820D56C9600032208 /* YZAccountTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZAccountTool.m; sourceTree = "<group>"; };
+		65417EEE20D56CEC00032208 /* MainTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainTool.h; sourceTree = "<group>"; };
+		65417EEF20D56CEC00032208 /* MainTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainTool.m; sourceTree = "<group>"; };
+		65417F1E20D663BB00032208 /* MBProgressHUD+JDragon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+JDragon.h"; sourceTree = "<group>"; };
+		65417F1F20D663BB00032208 /* MBProgressHUD+JDragon.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = "MBProgressHUD+JDragon.bundle"; sourceTree = "<group>"; };
+		65417F2020D663BB00032208 /* MBProgressHUD+JDragon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+JDragon.m"; sourceTree = "<group>"; };
+		65417F3820D666B000032208 /* YZhttpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZhttpRequest.m; sourceTree = "<group>"; };
+		65417F3920D666B000032208 /* YZBaseRequestTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZBaseRequestTool.m; sourceTree = "<group>"; };
+		65417F3A20D666B000032208 /* YZBaseRequestTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZBaseRequestTool.h; sourceTree = "<group>"; };
+		65417F3B20D666B000032208 /* YZhttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZhttpRequest.h; sourceTree = "<group>"; };
+		65417F3E20D666F200032208 /* YZBaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZBaseModel.h; sourceTree = "<group>"; };
+		65417F3F20D666F200032208 /* YZBaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZBaseModel.m; sourceTree = "<group>"; };
+		65417F4220D7643700032208 /* YZSaveReadTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZSaveReadTool.h; sourceTree = "<group>"; };
+		65417F4320D7643700032208 /* YZSaveReadTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZSaveReadTool.m; sourceTree = "<group>"; };
+		65417F4520D7669800032208 /* YZPersonModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZPersonModel.h; sourceTree = "<group>"; };
+		65417F4620D7669800032208 /* YZPersonModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZPersonModel.m; sourceTree = "<group>"; };
+		65742C2420CFA65A00EF9506 /* YZBaseProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YZBaseProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65742C3020CFA65A00EF9506 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65742C3320CFA65A00EF9506 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		65742C6120D21BC600EF9506 /* AppDelegate+YZRootController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+YZRootController.h"; sourceTree = "<group>"; };
+		65742C6220D21BC600EF9506 /* AppDelegate+YZRootController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+YZRootController.m"; sourceTree = "<group>"; };
+		65742C6320D21BC600EF9506 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		65742C6420D21BC600EF9506 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		65742C6520D21BC600EF9506 /* Confing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Confing.h; sourceTree = "<group>"; };
+		65742C6620D21BC600EF9506 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65742C6720D21BC600EF9506 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		65742C6820D21BC600EF9506 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		65E3007520DA4ABE00828A50 /* YZDeviceAuthorityTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZDeviceAuthorityTool.h; sourceTree = "<group>"; };
+		65E3007620DA4ABE00828A50 /* YZDeviceAuthorityTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZDeviceAuthorityTool.m; sourceTree = "<group>"; };
+		65E3007A20DA554200828A50 /* UIView+YLXTransitionAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YLXTransitionAnimation.h"; sourceTree = "<group>"; };
+		65E3007B20DA554200828A50 /* UIView+YLXTransitionAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YLXTransitionAnimation.m"; sourceTree = "<group>"; };
+		65E3007C20DA554200828A50 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		65E3007D20DA554200828A50 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		65E3008220DA56FA00828A50 /* UIAlertController+MHColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+MHColor.m"; sourceTree = "<group>"; };
+		65E3008320DA56FA00828A50 /* UIAlertController+MHColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+MHColor.h"; sourceTree = "<group>"; };
+		65E3008520DA59DD00828A50 /* UIView+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		65E3008620DA59DD00828A50 /* UIView+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		65E3008820DA94FC00828A50 /* UIViewController+YZAlertController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+YZAlertController.h"; sourceTree = "<group>"; };
+		65E3008920DA94FC00828A50 /* UIViewController+YZAlertController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+YZAlertController.m"; sourceTree = "<group>"; };
+		65F72E3220E0F01B00B15F79 /* UIScrollView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+Extension.h"; sourceTree = "<group>"; };
+		65F72E3320E0F01B00B15F79 /* UIScrollView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+Extension.m"; sourceTree = "<group>"; };
+		65F72E3C20E2252000B15F79 /* UITableView+noDateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+noDateView.m"; sourceTree = "<group>"; };
+		65F72E3D20E2252000B15F79 /* YZNodataView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZNodataView.h; sourceTree = "<group>"; };
+		65F72E3E20E2252000B15F79 /* YZNodataView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZNodataView.m; sourceTree = "<group>"; };
+		65F72E3F20E2252000B15F79 /* UITableView+noDateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+noDateView.h"; sourceTree = "<group>"; };
+		CA95C94B4DA38DEEB3A75F7B /* Pods-YZBaseProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YZBaseProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-YZBaseProject/Pods-YZBaseProject.release.xcconfig"; sourceTree = "<group>"; };
+		D74581A37352F34B946AAE8B /* libPods-YZBaseProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YZBaseProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6616DFEEB968B2ACDB0FB47 /* Pods-YZBaseProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YZBaseProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YZBaseProject/Pods-YZBaseProject.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65742C2120CFA65A00EF9506 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E89AC17378A19138651B200 /* libPods-YZBaseProject.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65417EB320D4DE6B00032208 /* login(登录) */ = {
+			isa = PBXGroup;
+			children = (
+				65417EB420D4DE6B00032208 /* ViewModel */,
+				65417EB520D4DE6B00032208 /* Controller */,
+				65417EB620D4DE6B00032208 /* Model */,
+				65417EB720D4DE6B00032208 /* View */,
+				65417EC620D4FFB100032208 /* login.xcassets */,
+			);
+			path = "login(登录)";
+			sourceTree = "<group>";
+		};
+		65417EB420D4DE6B00032208 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		65417EB520D4DE6B00032208 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				65417EB820D4DEBD00032208 /* YZLoginViewController.h */,
+				65417EB920D4DEBD00032208 /* YZLoginViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		65417EB620D4DE6B00032208 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				65417F4520D7669800032208 /* YZPersonModel.h */,
+				65417F4620D7669800032208 /* YZPersonModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		65417EB720D4DE6B00032208 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				65417EC120D4FC1300032208 /* YZLoginTextFieldView.h */,
+				65417EC220D4FC1300032208 /* YZLoginTextFieldView.m */,
+				65417EC420D4FC1D00032208 /* YZLoginTextFieldView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		65417EDA20D56C9600032208 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		65417EDB20D56C9600032208 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				65417EDF20D56C9600032208 /* YZBaseViewController.h */,
+				65417EDC20D56C9600032208 /* YZBaseViewController.m */,
+				65417EE020D56C9600032208 /* YZMainViewController.h */,
+				65417EDD20D56C9600032208 /* YZMainViewController.m */,
+				65417EDE20D56C9600032208 /* YZNavigationViewController.h */,
+				65417EE120D56C9600032208 /* YZNavigationViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		65417EE220D56C9600032208 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				65417EE320D56C9600032208 /* YZAccountModel.m */,
+				65417EE420D56C9600032208 /* YZAccountModel.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		65417EE520D56C9600032208 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		65417EE620D56C9600032208 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				65417EE720D56C9600032208 /* YZAccountTool.h */,
+				65417EE820D56C9600032208 /* YZAccountTool.m */,
+				65417EEE20D56CEC00032208 /* MainTool.h */,
+				65417EEF20D56CEC00032208 /* MainTool.m */,
+				65417F4220D7643700032208 /* YZSaveReadTool.h */,
+				65417F4320D7643700032208 /* YZSaveReadTool.m */,
+				65E3007520DA4ABE00828A50 /* YZDeviceAuthorityTool.h */,
+				65E3007620DA4ABE00828A50 /* YZDeviceAuthorityTool.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		65417F1D20D663BB00032208 /* MBProgressHUD+JDragon */ = {
+			isa = PBXGroup;
+			children = (
+				65417F1E20D663BB00032208 /* MBProgressHUD+JDragon.h */,
+				65417F1F20D663BB00032208 /* MBProgressHUD+JDragon.bundle */,
+				65417F2020D663BB00032208 /* MBProgressHUD+JDragon.m */,
+			);
+			path = "MBProgressHUD+JDragon";
+			sourceTree = "<group>";
+		};
+		65417F3220D666B000032208 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				65417F3320D666B000032208 /* ViewModel */,
+				65417F3420D666B000032208 /* Controller */,
+				65417F3520D666B000032208 /* Model */,
+				65417F3620D666B000032208 /* View */,
+				65417F3720D666B000032208 /* Tool */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		65417F3320D666B000032208 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		65417F3420D666B000032208 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		65417F3520D666B000032208 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				65417F3E20D666F200032208 /* YZBaseModel.h */,
+				65417F3F20D666F200032208 /* YZBaseModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		65417F3620D666B000032208 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		65417F3720D666B000032208 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				65417F3B20D666B000032208 /* YZhttpRequest.h */,
+				65417F3820D666B000032208 /* YZhttpRequest.m */,
+				65417F3A20D666B000032208 /* YZBaseRequestTool.h */,
+				65417F3920D666B000032208 /* YZBaseRequestTool.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		65417F4120D760D600032208 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		65742C1B20CFA65A00EF9506 = {
+			isa = PBXGroup;
+			children = (
+				65742C2620CFA65A00EF9506 /* YZBaseProject */,
+				65742C2520CFA65A00EF9506 /* Products */,
+				772731FB5D1B958EA2A9683C /* Pods */,
+				749424D76921FB148920D7B8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		65742C2520CFA65A00EF9506 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65742C2420CFA65A00EF9506 /* YZBaseProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65742C2620CFA65A00EF9506 /* YZBaseProject */ = {
+			isa = PBXGroup;
+			children = (
+				65417F3220D666B000032208 /* Base */,
+				65742C6F20D21E5B00EF9506 /* Module */,
+				65742C5B20D21BC600EF9506 /* Main */,
+				65742C6020D21BC600EF9506 /* Other */,
+				65742C8320D2202200EF9506 /* Lib */,
+				65742C3020CFA65A00EF9506 /* Assets.xcassets */,
+				65742C3220CFA65A00EF9506 /* LaunchScreen.storyboard */,
+			);
+			path = YZBaseProject;
+			sourceTree = "<group>";
+		};
+		65742C5B20D21BC600EF9506 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				65417EDA20D56C9600032208 /* ViewModel */,
+				65417EDB20D56C9600032208 /* Controller */,
+				65417EE220D56C9600032208 /* Model */,
+				65417EE520D56C9600032208 /* View */,
+				65417EE620D56C9600032208 /* Tool */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		65742C6020D21BC600EF9506 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				65742C6120D21BC600EF9506 /* AppDelegate+YZRootController.h */,
+				65742C6220D21BC600EF9506 /* AppDelegate+YZRootController.m */,
+				65742C6320D21BC600EF9506 /* AppDelegate.h */,
+				65742C6420D21BC600EF9506 /* AppDelegate.m */,
+				65742C6520D21BC600EF9506 /* Confing.h */,
+				65742C6620D21BC600EF9506 /* Info.plist */,
+				65742C6720D21BC600EF9506 /* main.m */,
+				65742C6820D21BC600EF9506 /* PrefixHeader.pch */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		65742C6F20D21E5B00EF9506 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				65417EB320D4DE6B00032208 /* login(登录) */,
+				65742C7020D21ED700EF9506 /* Empty */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		65742C7020D21ED700EF9506 /* Empty */ = {
+			isa = PBXGroup;
+			children = (
+				65417F4120D760D600032208 /* Tool */,
+				65742C7120D21ED700EF9506 /* Controller */,
+				65742C7220D21ED700EF9506 /* Model */,
+				65742C7320D21ED700EF9506 /* View */,
+				65742C7420D21ED700EF9506 /* ViewModel */,
+			);
+			path = Empty;
+			sourceTree = "<group>";
+		};
+		65742C7120D21ED700EF9506 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		65742C7220D21ED700EF9506 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		65742C7320D21ED700EF9506 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		65742C7420D21ED700EF9506 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		65742C8320D2202200EF9506 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				65742C8420D2202200EF9506 /* Category */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		65742C8420D2202200EF9506 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				65F72E3B20E2252000B15F79 /* UITableView */,
+				65F72E3120E0F01B00B15F79 /* UIScrollview */,
+				65E3008120DA56FA00828A50 /* UIAlertController */,
+				65E3007820DA554200828A50 /* UIView */,
+				65E3007E20DA554300828A50 /* UIViewController */,
+				65417F1D20D663BB00032208 /* MBProgressHUD+JDragon */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		65E3007820DA554200828A50 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				65E3007920DA554200828A50 /* TransitionAnimation(转场动画) */,
+				65E3007C20DA554200828A50 /* UIView+Frame.m */,
+				65E3007D20DA554200828A50 /* UIView+Frame.h */,
+				65E3008520DA59DD00828A50 /* UIView+Extension.h */,
+				65E3008620DA59DD00828A50 /* UIView+Extension.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		65E3007920DA554200828A50 /* TransitionAnimation(转场动画) */ = {
+			isa = PBXGroup;
+			children = (
+				65E3007A20DA554200828A50 /* UIView+YLXTransitionAnimation.h */,
+				65E3007B20DA554200828A50 /* UIView+YLXTransitionAnimation.m */,
+			);
+			path = "TransitionAnimation(转场动画)";
+			sourceTree = "<group>";
+		};
+		65E3007E20DA554300828A50 /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				65E3008820DA94FC00828A50 /* UIViewController+YZAlertController.h */,
+				65E3008920DA94FC00828A50 /* UIViewController+YZAlertController.m */,
+			);
+			path = UIViewController;
+			sourceTree = "<group>";
+		};
+		65E3008120DA56FA00828A50 /* UIAlertController */ = {
+			isa = PBXGroup;
+			children = (
+				65E3008220DA56FA00828A50 /* UIAlertController+MHColor.m */,
+				65E3008320DA56FA00828A50 /* UIAlertController+MHColor.h */,
+			);
+			path = UIAlertController;
+			sourceTree = "<group>";
+		};
+		65F72E3120E0F01B00B15F79 /* UIScrollview */ = {
+			isa = PBXGroup;
+			children = (
+				65F72E3220E0F01B00B15F79 /* UIScrollView+Extension.h */,
+				65F72E3320E0F01B00B15F79 /* UIScrollView+Extension.m */,
+			);
+			path = UIScrollview;
+			sourceTree = "<group>";
+		};
+		65F72E3B20E2252000B15F79 /* UITableView */ = {
+			isa = PBXGroup;
+			children = (
+				65F72E3F20E2252000B15F79 /* UITableView+noDateView.h */,
+				65F72E3C20E2252000B15F79 /* UITableView+noDateView.m */,
+				65F72E3D20E2252000B15F79 /* YZNodataView.h */,
+				65F72E3E20E2252000B15F79 /* YZNodataView.m */,
+			);
+			path = UITableView;
+			sourceTree = "<group>";
+		};
+		749424D76921FB148920D7B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D74581A37352F34B946AAE8B /* libPods-YZBaseProject.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		772731FB5D1B958EA2A9683C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E6616DFEEB968B2ACDB0FB47 /* Pods-YZBaseProject.debug.xcconfig */,
+				CA95C94B4DA38DEEB3A75F7B /* Pods-YZBaseProject.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65742C2320CFA65A00EF9506 /* YZBaseProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65742C3A20CFA65A00EF9506 /* Build configuration list for PBXNativeTarget "YZBaseProject" */;
+			buildPhases = (
+				A11E16A82CD9913578AA4D00 /* [CP] Check Pods Manifest.lock */,
+				65742C2020CFA65A00EF9506 /* Sources */,
+				65742C2120CFA65A00EF9506 /* Frameworks */,
+				65742C2220CFA65A00EF9506 /* Resources */,
+				3C04BB5C31DCE3DDCE7F6C53 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YZBaseProject;
+			productName = YZBaseProject;
+			productReference = 65742C2420CFA65A00EF9506 /* YZBaseProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65742C1C20CFA65A00EF9506 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YZ;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = JWHL.com;
+				TargetAttributes = {
+					65742C2320CFA65A00EF9506 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 65742C1F20CFA65A00EF9506 /* Build configuration list for PBXProject "YZBaseProject" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 65742C1B20CFA65A00EF9506;
+			productRefGroup = 65742C2520CFA65A00EF9506 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65742C2320CFA65A00EF9506 /* YZBaseProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65742C2220CFA65A00EF9506 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65417EC720D4FFB100032208 /* login.xcassets in Resources */,
+				65417EC520D4FC1D00032208 /* YZLoginTextFieldView.xib in Resources */,
+				65742C3420CFA65A00EF9506 /* LaunchScreen.storyboard in Resources */,
+				65742C3120CFA65A00EF9506 /* Assets.xcassets in Resources */,
+				65417F2120D663BB00032208 /* MBProgressHUD+JDragon.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C04BB5C31DCE3DDCE7F6C53 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-YZBaseProject/Pods-YZBaseProject-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YZBaseProject/Pods-YZBaseProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A11E16A82CD9913578AA4D00 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YZBaseProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65742C2020CFA65A00EF9506 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65E3007F20DA554300828A50 /* UIView+YLXTransitionAnimation.m in Sources */,
+				65417F4020D666F200032208 /* YZBaseModel.m in Sources */,
+				65E3008720DA59DD00828A50 /* UIView+Extension.m in Sources */,
+				65F72E3420E0F01B00B15F79 /* UIScrollView+Extension.m in Sources */,
+				65742C6B20D21BC600EF9506 /* AppDelegate+YZRootController.m in Sources */,
+				65417EBA20D4DEBD00032208 /* YZLoginViewController.m in Sources */,
+				65417EC320D4FC1300032208 /* YZLoginTextFieldView.m in Sources */,
+				65E3008A20DA94FC00828A50 /* UIViewController+YZAlertController.m in Sources */,
+				65E3008420DA56FB00828A50 /* UIAlertController+MHColor.m in Sources */,
+				65F72E4020E2252000B15F79 /* UITableView+noDateView.m in Sources */,
+				65417F3D20D666B100032208 /* YZBaseRequestTool.m in Sources */,
+				65742C6E20D21BC600EF9506 /* main.m in Sources */,
+				65742C6C20D21BC600EF9506 /* AppDelegate.m in Sources */,
+				65E3008020DA554300828A50 /* UIView+Frame.m in Sources */,
+				65F72E4120E2252000B15F79 /* YZNodataView.m in Sources */,
+				65417F2220D663BB00032208 /* MBProgressHUD+JDragon.m in Sources */,
+				65417F3C20D666B100032208 /* YZhttpRequest.m in Sources */,
+				65417EEB20D56C9600032208 /* YZNavigationViewController.m in Sources */,
+				65417F4420D7643700032208 /* YZSaveReadTool.m in Sources */,
+				65E3007720DA4ABE00828A50 /* YZDeviceAuthorityTool.m in Sources */,
+				65417EE920D56C9600032208 /* YZBaseViewController.m in Sources */,
+				65417EF020D56CEC00032208 /* MainTool.m in Sources */,
+				65417EED20D56C9600032208 /* YZAccountTool.m in Sources */,
+				65417EEC20D56C9600032208 /* YZAccountModel.m in Sources */,
+				65417F4720D7669800032208 /* YZPersonModel.m in Sources */,
+				65417EEA20D56C9600032208 /* YZMainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		65742C3220CFA65A00EF9506 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65742C3320CFA65A00EF9506 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		65742C3820CFA65A00EF9506 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		65742C3920CFA65A00EF9506 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65742C3B20CFA65A00EF9506 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6616DFEEB968B2ACDB0FB47 /* Pods-YZBaseProject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 344BN3S4Y9;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/YZBaseProject/Other/PrefixHeader.pch";
+				INFOPLIST_FILE = YZBaseProject/Other/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ylx.YZBaseProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		65742C3C20CFA65A00EF9506 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA95C94B4DA38DEEB3A75F7B /* Pods-YZBaseProject.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 344BN3S4Y9;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/YZBaseProject/Other/PrefixHeader.pch";
+				INFOPLIST_FILE = YZBaseProject/Other/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ylx.YZBaseProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65742C1F20CFA65A00EF9506 /* Build configuration list for PBXProject "YZBaseProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65742C3820CFA65A00EF9506 /* Debug */,
+				65742C3920CFA65A00EF9506 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65742C3A20CFA65A00EF9506 /* Build configuration list for PBXNativeTarget "YZBaseProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65742C3B20CFA65A00EF9506 /* Debug */,
+				65742C3C20CFA65A00EF9506 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 65742C1C20CFA65A00EF9506 /* Project object */;
+}

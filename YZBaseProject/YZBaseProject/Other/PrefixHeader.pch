@@ -1,0 +1,38 @@
+//
+//  PrefixHeader.pch
+//  YZBaseProject
+//
+//  Created by zhangyongkang on 2018/6/12.
+//  Copyright © 2018年 JWHL.com. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#ifdef __OBJC__  // 判断OC文件
+
+#import "Confing.h"
+#import <ReactiveObjC/ReactiveObjC.h>
+#import "UIView+Frame.h"
+#import <MJExtension/MJExtension.h>
+
+
+
+
+
+
+#ifdef DEBUG  // 调适环境
+#define AILog(...) NSLog(@"%s\n %@\n\n",__func__,  [NSString stringWithFormat:__VA_ARGS__])
+
+#else         // 正式环境
+
+#define AILog(...)
+
+#endif
+
+
+
+#endif // OC文件判断结束
+
+
+#endif /* PrefixHeader_pch */
